@@ -1,0 +1,18 @@
+name: ThunderEffect
+main: com.pulsior.thundereffect.ThunderEffect
+version: 1.0
+commands:
+  thundereffect:
+    description: Apply a nifty thunder effect to your tool!
+    usage: /<command>
+  removethunder:
+    description: Remove the effect from your tool
+    usage: /<command>
+    permission: thundereffect.use
+    permission-message: You don't have permission to do that
+
+permissions:
+  thundereffect.use:
+    description: Allow a player to use the thundereffect and remove commands
+    default: op
+   
